@@ -22,7 +22,7 @@ for i in range(0,4):
     n = approx.ravel()
     x=n[-2]
     y=n[-1]+75
-    cv2.putText(image, str(i+1), (x,y),font, 1, (0, 255, 0), 2, cv2.LINE_AA)
+    cv2.putText(image, str(i+1), (x,y),font, 1, (0, 0, 0), 2, cv2.LINE_AA)
 
 
 
